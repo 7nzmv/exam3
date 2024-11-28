@@ -614,10 +614,6 @@ video {
   margin-left: 5rem;
 }
 
-.ml-24 {
-  margin-left: 6rem;
-}
-
 .ml-3 {
   margin-left: 0.75rem;
 }
@@ -782,6 +778,10 @@ video {
   margin-top: 3%;
 }
 
+.mt-\[300px\] {
+  margin-top: 300px;
+}
+
 .mt-\[30px\] {
   margin-top: 30px;
 }
@@ -802,16 +802,16 @@ video {
   margin-top: 80px;
 }
 
+.mt-\[350px\] {
+  margin-top: 350px;
+}
+
 .block {
   display: block;
 }
 
 .flex {
   display: flex;
-}
-
-.h-5 {
-  height: 1.25rem;
 }
 
 .h-\[126px\] {
@@ -864,6 +864,10 @@ video {
 
 .h-\[300px\] {
   height: 300px;
+}
+
+.h-\[323px\] {
+  height: 323px;
 }
 
 .h-\[340px\] {
@@ -926,14 +930,6 @@ video {
   height: 8px;
 }
 
-.h-\[323px\] {
-  height: 323px;
-}
-
-.w-5 {
-  width: 1.25rem;
-}
-
 .w-\[100px\] {
   width: 100px;
 }
@@ -964,6 +960,10 @@ video {
 
 .w-\[140px\] {
   width: 140px;
+}
+
+.w-\[154px\] {
+  width: 154px;
 }
 
 .w-\[160px\] {
@@ -1010,6 +1010,10 @@ video {
   width: 215px;
 }
 
+.w-\[225px\] {
+  width: 225px;
+}
+
 .w-\[240px\] {
   width: 240px;
 }
@@ -1034,12 +1038,24 @@ video {
   width: 307px;
 }
 
+.w-\[315px\] {
+  width: 315px;
+}
+
+.w-\[342px\] {
+  width: 342px;
+}
+
 .w-\[390px\] {
   width: 390px;
 }
 
 .w-\[400px\] {
   width: 400px;
+}
+
+.w-\[422px\] {
+  width: 422px;
 }
 
 .w-\[430px\] {
@@ -1074,6 +1090,10 @@ video {
   width: 76px;
 }
 
+.w-\[77px\] {
+  width: 77px;
+}
+
 .w-\[80\%\] {
   width: 80%;
 }
@@ -1096,30 +1116,6 @@ video {
 
 .w-\[98px\] {
   width: 98px;
-}
-
-.w-\[342px\] {
-  width: 342px;
-}
-
-.w-\[154px\] {
-  width: 154px;
-}
-
-.w-\[225px\] {
-  width: 225px;
-}
-
-.w-\[315px\] {
-  width: 315px;
-}
-
-.w-\[422px\] {
-  width: 422px;
-}
-
-.w-\[77px\] {
-  width: 77px;
 }
 
 .max-w-6xl {
@@ -1218,6 +1214,10 @@ video {
   gap: 2.25rem;
 }
 
+.gap-\[100px\] {
+  gap: 100px;
+}
+
 .gap-\[200px\] {
   gap: 200px;
 }
@@ -1232,10 +1232,6 @@ video {
 
 .gap-\[70px\] {
   gap: 70px;
-}
-
-.gap-\[100px\] {
-  gap: 100px;
 }
 
 .space-x-2 > :not([hidden]) ~ :not([hidden]) {
@@ -1523,6 +1519,10 @@ video {
   font-size: 28px;
 }
 
+.text-\[32px\] {
+  font-size: 32px;
+}
+
 .text-\[46px\] {
   font-size: 46px;
 }
@@ -1553,10 +1553,6 @@ video {
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
-}
-
-.text-\[32px\] {
-  font-size: 32px;
 }
 
 .font-bold {
@@ -1684,6 +1680,10 @@ video {
     margin-bottom: 20px;
   }
 
+  .sm\:ml-0 {
+    margin-left: 0px;
+  }
+
   .sm\:ml-10 {
     margin-left: 2.5rem;
   }
@@ -1722,6 +1722,10 @@ video {
 
   .sm\:ml-8 {
     margin-left: 2rem;
+  }
+
+  .sm\:ml-\[10px\] {
+    margin-left: 10px;
   }
 
   .sm\:ml-\[120px\] {
@@ -1828,6 +1832,10 @@ video {
     margin-top: 100px;
   }
 
+  .sm\:mt-\[10px\] {
+    margin-top: 10px;
+  }
+
   .sm\:mt-\[130px\] {
     margin-top: 130px;
   }
@@ -1842,18 +1850,6 @@ video {
 
   .sm\:mt-\[70px\] {
     margin-top: 70px;
-  }
-
-  .sm\:ml-0 {
-    margin-left: 0px;
-  }
-
-  .sm\:ml-\[10px\] {
-    margin-left: 10px;
-  }
-
-  .sm\:mt-\[10px\] {
-    margin-top: 10px;
   }
 
   .sm\:hidden {
@@ -1947,6 +1943,10 @@ video {
     margin-left: 0px;
   }
 
+  .md\:ml-24 {
+    margin-left: 6rem;
+  }
+
   .md\:ml-4 {
     margin-left: 1rem;
   }
@@ -1959,8 +1959,8 @@ video {
     margin-left: 250px;
   }
 
-  .md\:ml-\[60px\] {
-    margin-left: 60px;
+  .md\:ml-\[90px\] {
+    margin-left: 90px;
   }
 
   .md\:mr-0 {
@@ -1983,36 +1983,12 @@ video {
     margin-top: 200px;
   }
 
-  .md\:mt-\[350px\] {
-    margin-top: 350px;
-  }
-
-  .md\:ml-\[100px\] {
-    margin-left: 100px;
-  }
-
-  .md\:ml-\[80px\] {
-    margin-left: 80px;
-  }
-
-  .md\:ml-\[70px\] {
-    margin-left: 70px;
-  }
-
-  .md\:ml-\[0px\] {
-    margin-left: 0px;
-  }
-
-  .md\:ml-\[90px\] {
-    margin-left: 90px;
-  }
-
-  .md\:ml-24 {
-    margin-left: 6rem;
-  }
-
   .md\:mt-\[220px\] {
     margin-top: 220px;
+  }
+
+  .md\:mt-\[350px\] {
+    margin-top: 350px;
   }
 
   .md\:block {
@@ -2035,6 +2011,10 @@ video {
     height: 440px;
   }
 
+  .md\:h-\[454px\] {
+    height: 454px;
+  }
+
   .md\:h-\[500px\] {
     height: 500px;
   }
@@ -2045,10 +2025,6 @@ video {
 
   .md\:h-\[700px\] {
     height: 700px;
-  }
-
-  .md\:h-\[454px\] {
-    height: 454px;
   }
 
   .md\:w-\[140px\] {
