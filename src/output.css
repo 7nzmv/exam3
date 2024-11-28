@@ -734,13 +734,10 @@ video {
   margin-top: 2.25rem;
 }
 
-<<<<<<< HEAD
-=======
 .mt-\[10\%\] {
   margin-top: 10%;
 }
 
->>>>>>> Page7
 .mt-\[100px\] {
   margin-top: 100px;
 }
@@ -813,13 +810,10 @@ video {
   height: 280px;
 }
 
-<<<<<<< HEAD
-=======
 .h-\[28px\] {
   height: 28px;
 }
 
->>>>>>> Page7
 .h-\[290px\] {
   height: 290px;
 }
@@ -888,13 +882,10 @@ video {
   width: 111px;
 }
 
-<<<<<<< HEAD
-=======
 .w-\[121px\] {
   width: 121px;
 }
 
->>>>>>> Page7
 .w-\[125px\] {
   width: 125px;
 }
@@ -943,13 +934,10 @@ video {
   width: 215px;
 }
 
-<<<<<<< HEAD
-=======
 .w-\[240px\] {
   width: 240px;
 }
 
->>>>>>> Page7
 .w-\[250px\] {
   width: 250px;
 }
@@ -1124,14 +1112,11 @@ video {
   border-color: rgb(255 63 58 / var(--tw-border-opacity, 1));
 }
 
-<<<<<<< HEAD
-=======
 .border-\[\#f95514\] {
   --tw-border-opacity: 1;
   border-color: rgb(249 85 20 / var(--tw-border-opacity, 1));
 }
 
->>>>>>> Page7
 .border-\[\#ff3f3a\] {
   --tw-border-opacity: 1;
   border-color: rgb(255 63 58 / var(--tw-border-opacity, 1));
@@ -1563,13 +1548,10 @@ video {
     margin-top: 215px;
   }
 
-<<<<<<< HEAD
-=======
   .sm\:mt-\[70px\] {
     margin-top: 70px;
   }
 
->>>>>>> Page7
   .sm\:hidden {
     display: none;
   }
@@ -1641,8 +1623,6 @@ video {
     margin-left: 0px;
   }
 
-<<<<<<< HEAD
-=======
   .md\:ml-4 {
     margin-left: 1rem;
   }
@@ -1651,7 +1631,6 @@ video {
     margin-left: 150px;
   }
 
->>>>>>> Page7
   .md\:ml-\[250px\] {
     margin-left: 250px;
   }
