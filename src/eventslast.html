@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events List View</title>
+    <link rel="stylesheet" href="./output.css">
+</head>
+<body class="m-0">
+
+
+    
+    <div class="md:flex p-10 justify-center gap-64">
+
+        <div class="md:flex gap-16 mt-[10px]">
+            <img class="w-[130px] h-[22px] sm:ml-[85px] md:ml-0" src="/images/logo.png" alt="">
+            <p class="sm:ml-[120px] md:ml-0 sm:mt-3 md:mt-0 text-[#f95514]">About Us</p>
+            <p class="sm:ml-[125px] md:ml-0 sm:mt-3 md:mt-0">Courses</p>
+            <p class="sm:ml-[130px] md:ml-0 sm:mt-3 md:mt-0">Events</p>
+            <p class="sm:ml-[137px] md:ml-0 sm:mt-3 md:mt-0">Blog</p>
+            <p class="sm:ml-[124px] md:ml-0 sm:mt-3 md:mt-0">Contacts</p>
+        </div>
+
+        <div class="md:flex gap-16 sm:mt-10 md:mt-0 sm:
+            ml-[65px] md:ml-0">
+            <button class="h-[45px] w-[180px] bg-[#f95514] text-white rounded-[4px] hover:bg-orange-">Get
+                consultation</button>
+            <div class="flex gap-2 sm:mt-3 md:mt-0 sm:ml-6 ">
+                <img class="w-[20px] h-[20px] mt-3" src="/images/Profile.png" alt="">
+                <p class="mt-2">Log in / Register</p>
+            </div>
+        </div>
+
+    </div>
+
+  <div class="max-w-6xl m-auto py-10 px-4">
+   
+    <div class="text-center">
+      <h2 class="text-sm font-semibold text-gray-400 uppercase">Our Events</h2>
+      <h1 class="text-3xl font-bold text-gray-900 mt-2">Lectures, workshops & master-classes</h1>
+    </div>
+
+    
+
+    <div class="mt-8 md:flex flex-col lg:flex-row lg:items-center lg:justify-between space-y-4 lg:space-y-0">
+   
+      <div class="flex items-center space-x-2">
+        <label for="category" class="text-gray-600 text-sm w-[110px]">Event category</label>
+        <select id="category" class="block w-[160px] border-[1px] h-[44px] border-gray-300 rounded-md  text-sm focus:ring-red-500 focus:border-red-500">
+          <option value="all">all themes</option>
+          <option value="workshops">Workshops</option>
+          <option value="lectures">Lectures</option>
+        </select>
+      </div>
+
+      
+      <div class="flex items-center space-x-2">
+        <label for="sort" class="text-gray-600 text-sm w-[52px] ml-4">Sort by</label>
+        <select id="sort" class="block w-[160px] border-[1px] h-[44px] border-gray-300 rounded-md shadow-sm text-sm focus:ring-red-500 focus:border-red-500">
+          <option value="newest">newest</option>
+          <option value="oldest">oldest</option>
+          <option value="popular">most popular</option>
+        </select>
+      </div>
+
+     
+      <div class="flex items-center space-x-2">
+        <label for="show" class="text-gray-600 text-sm w-[51px] ml-4">Show</label>
+        <select id="show" class="block w-[160px] border-[1px] h-[44px] border-gray-300 rounded-md shadow-sm text-sm focus:ring-red-500 focus:border-red-500">
+          <option value="9">9</option>
+          <option value="12">12</option>
+          <option value="15">15</option>
+        </select>
+
+      </div>
+
+     
+      <div class="flex items-center space-x-2 ">
+        <span class="text-gray-600 text-sm w-[98px] ml-4">events per page</span>
+        <input type="text" placeholder="Search event..." class="block w-[160px] border-[1px] h-[44px]  lg:w-64 border-gray-300 rounded-md shadow-sm text-sm focus:ring-red-500 focus:border-red-500">
+        <button class="text-gray-600 focus:outline-none">
+          
+        </button>
+      </div>
+      <div class="flex gap-[30px] ml-6">
+        <img src="./list.png" alt="">
+        <img src="./Vector (2).png" alt="">
+
+      </div>
+    </div>
+  </div>
+  <div class="pt-10">
+    <h1 class="text-center font-bold ">Our Events</h1>
+    <h1 class="text-[46px] text-center font-black mt-6">Lectures & workshops</h1>
+</div>
+
+
+    <div class="md:w-[1230px] h-[126px] border-[1px] border-gray-200 mt-10 bg-white m-auto flex rounded-[4px]">
+        <h1 class="font-black text-[48px] content-center ml-6 text-[#FF3F3A]">05</h1>
+        <div class="ml-6 mt-8">
+            <h1 class="md:text-[20px] sm::text-[12px] font-bold">August</h1>
+            <p class="mt-5 text-[#787A80] md:text-[16px] sm:text-[10px]">11:00 – 14:00</p>
+        </div>
+        <div class="ml-8 mt-8">
+            <h1 class="font-bold md:text-[20px] sm:text-[11px]">Formation of the organizational structure of the company in the face of uncertainty.</h1>
+            <p class="md:mt-5 sm:mt-2 text-[#787A80] md:text-[16px] sm:text-[10px]">Onine master-class</p>
+        </div>
+        <p class="w-[136px] h-[44px] mt-10 ml-6 text-center justify-center md:text-[16px] sm:text-[11px] content-center text-[#FF3F3A] border-[1px] border-[#FF3F3A] rounded-[4px]">View more</p>
+
+    </div>
+    <div class="md:w-[1230px] h-[126px] border-[1px] border-gray-200 mt-10 bg-white m-auto flex rounded-[4px]">
+        <h1 class="font-black text-[48px] content-center ml-6 text-[#FF3F3A]">24</h1>
+        <div class="ml-6 mt-8">
+            <h1 class="md:text-[20px] sm:text-[12px] font-bold">July</h1>
+            <p class="mt-5 text-[#787A80] md:text-[16px] sm:text-[10px]">11:00 – 14:00</p>
+        </div>
+        <div class="ml-8 mt-8">
+            <h1 class="font-bold w-[] md:text-[20px] sm:text-[11px]">Building a customer service department. Best Practices.</h1>
+            <p class="mt-5 text-[#787A80] md:text-[16px] sm:text-[10px]">Onine master-class</p>
+        </div>
+        <p class="w-[136px] h-[44px] mt-10 md:ml-72 text-center justify-center md:text-[16px] sm:text-[11px] content-center text-[#FF3F3A] border-[1px] border-[#FF3F3A] rounded-[4px]">View more</p>
+
+    </div>
+    <div class="md:w-[1230px] h-[126px] shadow-xl mt-10 bg-white m-auto flex rounded-[4px]">
+        <h1 class="font-black text-[48px] content-center ml-6 text-[#FF3F3A]">16</h1>
+        <div class="ml-6 mt-8">
+            <h1 class="md:text-[20px] sm:text-[12px] font-bold">July</h1>
+            <p class="mt-5 text-[#787A80] md:text-[16px] sm:text-[10px]">10:00 – 13:00</p>
+        </div>
+        <div class="ml-8 mt-8">
+            <h1 class="font-bold md:text-[20px] sm:text-[11px]">How to apply methods of speculative design in practice. Worldbuilding prototyping.</h1>
+            <p class="md:mt-5 sm:mt-2 text-[#787A80] md:text-[16px] sm:text-[10px]">Onine master-class</p>
+        </div>
+        <p class="w-[136px] h-[44px] mt-10 md:ml-6 text-center justify-center content-center md:text-[16px] sm:text-[11px] text-white border-[1px] bg-[#FF3F3A] rounded-[4px]">View more</p>
+    </div>
+    <div class="md:w-[1230px] h-[126px] border-[1px] border-gray-200 mt-10 bg-white m-auto flex rounded-[4px]">
+        <h1 class="font-black text-[48px] content-center ml-6 text-[#FF3F3A]">24</h1>
+        <div class="ml-6 mt-8">
+            <h1 class="md:text-[20px] sm:text-[12px] font-bold">July</h1>
+            <p class="mt-5 text-[#787A80] md:text-[16px] sm:text-[10px]">11:00 – 14:00</p>
+        </div>
+        <div class="ml-8 mt-8">
+            <h1 class="font-bold  md:text-[20px] sm:text-[11px]">Building a customer service department. Best Practices.</h1>
+            <p class="mt-5 text-[#787A80] md:text-[16px] sm:text-[10px]">Onine master-class</p>
+        </div>
+        <p class="w-[136px] h-[44px] mt-10 md:ml-72 text-center justify-center md:text-[16px] sm:text-[11px] content-center text-[#FF3F3A] border-[1px] border-[#FF3F3A] rounded-[4px]">View more</p>
+
+    </div>
+
+
+    <div class="md:w-[1230px] h-[126px] border-[1px] border-gray-200 mt-10 bg-white m-auto flex rounded-[4px]">
+        <h1 class="font-black text-[48px] content-center ml-6 text-[#FF3F3A]">24</h1>
+        <div class="ml-6 mt-8">
+            <h1 class="md:text-[20px] sm:text-[12px] font-bold">July</h1>
+            <p class="mt-5 text-[#787A80] md:text-[16px] sm:text-[10px]">11:00 – 14:00</p>
+        </div>
+        <div class="ml-8 mt-8">
+            <h1 class="font-bold w-[] md:text-[20px] sm:text-[11px]">Building a customer service department. Best Practices.</h1>
+            <p class="mt-5 text-[#787A80] md:text-[16px] sm:text-[10px]">Onine master-class</p>
+        </div>
+        <p class="w-[136px] h-[44px] mt-10 md:ml-72 text-center justify-center md:text-[16px] sm:text-[11px] content-center text-[#FF3F3A] border-[1px] border-[#FF3F3A] rounded-[4px]">View more</p>
+
+    </div>
+
+
+    <div class="md:w-[1230px] h-[126px] border-[1px] border-gray-200 mt-10 bg-white m-auto flex rounded-[4px]">
+        <h1 class="font-black text-[48px] content-center ml-6 text-[#FF3F3A]">24</h1>
+        <div class="ml-6 mt-8">
+            <h1 class="md:text-[20px] sm:text-[12px] font-bold">July</h1>
+            <p class="mt-5 text-[#787A80] md:text-[16px] sm:text-[10px]">11:00 – 14:00</p>
+        </div>
+        <div class="ml-8 mt-8">
+            <h1 class="font-bold w-[] md:text-[20px] sm:text-[11px]">Building a customer service department. Best Practices.</h1>
+            <p class="mt-5 text-[#787A80] md:text-[16px] sm:text-[10px]">Onine master-class</p>
+        </div>
+        <p class="w-[136px] h-[44px] mt-10 md:ml-72 text-center justify-center md:text-[16px] sm:text-[11px] content-center text-[#FF3F3A] border-[1px] border-[#FF3F3A] rounded-[4px]">View more</p>
+
+    </div>
+
+
+    <div class="md:w-[1230px] h-[126px] border-[1px] border-gray-200 mt-10 bg-white m-auto flex rounded-[4px]">
+        <h1 class="font-black text-[48px] content-center ml-6 text-[#FF3F3A]">24</h1>
+        <div class="ml-6 mt-8">
+            <h1 class="md:text-[20px] sm:text-[12px] font-bold">July</h1>
+            <p class="mt-5 text-[#787A80] md:text-[16px] sm:text-[10px]">11:00 – 14:00</p>
+        </div>
+        <div class="ml-8 mt-8">
+            <h1 class="font-bold  md:text-[20px] sm:text-[11px]">Building a customer service department. Best Practices.</h1>
+            <p class="mt-5 text-[#787A80] md:text-[16px] mayda:text-[10px]">Onine master-class</p>
+        </div>
+        <p class="w-[136px] h-[44px] mt-10 md:ml-72 text-center justify-center md:text-[16px] sm:text-[11px] content-center text-[#FF3F3A] border-[1px] border-[#FF3F3A] rounded-[4px]">View more</p>
+
+    </div>
+
+
+    <div class="md:w-[1230px] h-[126px] border-[1px] border-gray-200 mt-10 bg-white m-auto flex rounded-[4px]">
+        <h1 class="font-black text-[48px] content-center ml-6 text-[#FF3F3A]">24</h1>
+        <div class="ml-6 mt-8">
+            <h1 class="md:text-[20px] mayda:text-[12px] font-bold">July</h1>
+            <p class="mt-5 text-[#787A80] md:text-[16px] sm:text-[10px]">11:00 – 14:00</p>
+        </div>
+        <div class="ml-8 mt-8">
+            <h1 class="font-bold w-[] md:text-[20px] sm:text-[11px]">Building a customer service department. Best Practices.</h1>
+            <p class="mt-5 text-[#787A80] md:text-[16px] sm:text-[10px]">Onine master-class</p>
+        </div>
+        <p class="w-[136px] h-[44px] mt-10 md:ml-72 text-center justify-center md:text-[16px] sm:text-[11px] content-center text-[#FF3F3A] border-[1px] border-[#FF3F3A] rounded-[4px]">View more</p>
+
+    </div>
+    <div class="md:w-[1230px] h-[126px] border-[1px] border-gray-200 mt-10 bg-white m-auto flex rounded-[4px]">
+        <h1 class="font-black text-[48px] content-center ml-6 text-[#FF3F3A]">24</h1>
+        <div class="ml-6 mt-8">
+            <h1 class="md:text-[20px] sm:text-[12px] font-bold">July</h1>
+            <p class="mt-5 text-[#787A80] md:text-[16px] sm:text-[10px]">11:00 – 14:00</p>
+        </div>
+        <div class="ml-8 mt-8">
+            <h1 class="font-bold w-[] md:text-[20px] sm:text-[11px]">Building a customer service department. Best Practices.</h1>
+            <p class="mt-5 text-[#787A80] md:text-[16px] sm:text-[10px]">Onine master-class</p>
+        </div>
+        <p class="w-[136px] h-[44px] mt-10 md:ml-72 text-center justify-center md:text-[16px] sm:text-[11px] content-center text-[#FF3F3A] border-[1px] border-[#FF3F3A] rounded-[4px]">View more</p>
+
+    </div>
+
+
+
+    <div class="md:flex md:mt-[200px] justify-around bg-[#FEDDD0] sm:mt-[100px] sm:pl-8 md:pl-0">
+
+        <div class="w-[250px] sm:hidden md:block">
+          <img class="pt-[240px]" src="/images/illustration (2).png" alt="">
+        </div>
+  
+        <div class="pt-16">
+          <p class="text-xl text-center">Don’t miss anything</p>
+          <p class="text-4xl font-bold mt-3">Subscribe to the Createx School <br> announcements</p>
+          <input class="mt-16 md:w-[400px] h-[52px] rounded-[4px]" type="email" placeholder="    Your working email">
+          <input class="w-[140px] h-[52px] text-white bg-[#F95416] rounded-[4px]" type="button" value="Subscribe">
+        </div>
+  
+        <div class="md:w-[250px] sm:w-[90%] sm:ml-8 md:ml-0">
+          <img class="pt-[240px]" src="/images/illustration (2).png" alt="">
+        </div>
+  
+      </div>
+
+
+    <div class="konec bg-[#1E212C] md:flex text-white justify-center gap-[70px] md:pt-[110px] h-[396px] sm:pl-16 md:pl-0 sm:pt-20">
+
+        <div>
+         <img src="/images/cratex.png" alt="">
+         <p class="mt-6 text-gray-400 text-xs">Createx Online School is a leader in online studying. <br> We have lots of courses and programs from the main <br> market experts. We provide relevant approaches <br> to online learning, internships and employment in the <br> largest companies in the country. </p>
+         <div class="flex gap-7 mt-6 ">
+          <img src="/images/face.png" alt="">
+          <img src="/images/Twitter.png" alt="">
+          <img src="/images/YouTube.png" alt="">
+          <img src="/images/telegram.png" alt="">
+          <img src="/images/insta.png" alt="">
+          <img src="/images/in.png" alt="">
+         </div>
+        </div>
+    
+        <div class="text-xs text-gray-400 sm:hidden md:block">
+        <p class="text-lg font-bold text-white">SITE MAP</p>
+        <p class="mt-4">About Us</p>
+        <p class="mt-3">Courses</p>
+        <p class="mt-3">Events</p>
+        <p class="mt-3">Blog</p>
+        <p class="mt-3">Contacts</p>
+        </div>
+    
+        <div class="text-xs text-gray-400 sm:hidden md:block">
+        <p class="font-bold text-lg text-white">COURSES</p>
+        <p class="mt-4">Marketing</p>
+        <p class="mt-3">Management</p>
+        <p class="mt-3">HR & Recruting</p>
+        <p class="mt-3">Design</p>
+        <p class="mt-3">Development</p>
+        </div>
+    
+        <div class="text-xs text-gray-400 sm:hidden md:block">
+          <p class="text-lg font-bold text-white">CONTACT US</p>
+          <div class="flex gap-3 mt-4">
+            <img src="/images/iPhone.png" alt="">
+            <p>(405) 555-0128</p>
+          </div>
+          <div class="flex gap-3 mt-3">
+            <img src="/images/Mail.png" alt="">
+            <p>hello@createx.com</p>
+          </div>
+        </div>
+    
+        <div class="sm:hidden md:block">
+          <p>SIGN UP TO OUR NEWSLETTER</p>
+          <input class="bg-[#292C37] w-[250px] mt-4 h-[36px] rounded-[4px]" type="email" placeholder="  Email address">
+          <p class="text-xs text-gray-400 mt-3">*Subscribe to our newsletter to receive communications and early <br> updates from Createx SEO Agency.</p>
+        </div>
+    
+        </div>
+    
+    
+        <div class="bg-[#292C37] md:flex justify-between p-[15px] text-xs">
+          <div class="flex md:ml-[150px] text-white gap-1">
+            <p>© All rights reserved. Made with</p>
+            <img src="/images/Heart.png" alt="">
+            <p>by Createx Studio </p>
+          </div>
+    
+          <div class="mr-[150px] text-gray-400 sm:hidden md:block">
+            <p>GO TO TOP</p>
+          </div>
+    
+        </div>
+    
+
+</body>
+</html>
